@@ -1,0 +1,69 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-04-15 15:20:57",
+    "containerVersion": {
+        "path": "accounts/0/containers/0/versions/0",
+        "accountId": "0",
+        "containerId": "0",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/0/containers/0",
+            "accountId": "0",
+            "containerId": "0",
+            "name": "Basic TagForge Pageview",
+            "publicId": "GTM-XXXXXXX",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "0",
+            "features": {},
+            "tagIds": [
+                "GTM-XXXXXXX"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "0",
+                "containerId": "0",
+                "tagId": "1",
+                "name": "All Pageviews",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA 4 Stream ID}}"
+                    }
+                ],
+                "firingTriggerId": [
+                    "1"
+                ]
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "0",
+                "containerId": "0",
+                "variableId": "1",
+                "name": "GA 4 Stream ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "MEASUREMENT_ID_PLACEHOLDER"
+                    }
+                ]
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "0",
+                "containerId": "0",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            }
+        ],
+        "fingerprint": "0"
+    }
+}
